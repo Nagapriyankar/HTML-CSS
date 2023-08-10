@@ -1,0 +1,57 @@
+container properties
+
+
+display
+    *grid
+grid-template-columns
+    100px 100px 100px
+    repeat(3,100px)
+    specify value for req no of col
+grid-template-rows
+    specify value for req no of row
+grid-template
+    short hand for above two
+column-gap
+    gap in between columns
+row-gap
+    gap in between rows
+gap
+    shorthand for above two
+justify-items
+    horizontal axis
+        stretch
+        start
+        end
+        center
+align-items
+    vertical axis
+        stretch
+        start
+        end
+        center
+place-items
+        shorthand for above two
+justify-content
+    justify-content: start;
+    justify-content: center;
+    justify-content: end;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+align-content
+    align-content: start;
+    align-content: center;
+    align-content: end;
+    align-content: space-between;
+    align-content: space-around;
+    align-content: space-evenly;
+place-content
+    shorthand for above two
+grid-auto-columns
+grid-auto-rows
+grid-auto-flow
+
+
+items properties
+
+

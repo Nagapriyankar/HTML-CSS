@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <link rel="stylesheet" type="text/css" href="./overflow.css">
+</head>
+
+<body>
+    <h2>OVERFLOW, DROPBOX, MEASUREMENT</h2>
+    <div class="container overflow-set">
+        <P>
+            THIS TEXT WILL BE CUT OFF IF IT OVERFLOWS THE ELEMENTS BOUNDARIES.
+            THIS TEXTT WILL BE CUT OFF IF IT IS OVERFLOWS THE ELEMENT BOUNDRIES
+        </P>
+    </div>
+    <h2>DROPBOX IMAGE</h2>
+     <img src="https://www.dropbox.com/scl/fi/dtugzjjt75yz9tln1d6a4/jack-
+        castles-zeCcm2ZHCjg-unsplash.jpg?rlkey=8pcceg9nux3g375zgssgw9027&raw=1"
+            alt="unsplashImg" width="300px" height="300px"> 
+
+    
+        <h2>MEASUREMENT</h2>
+        <ul>
+            <li>centimeter</li>
+            <li>millimeters</li>
+            <li>in: inches (1 in = 96px = 2.54 cm)</li>
+            <li>px: pixels (1px = 1/96th of 1 in)</li>
+            <li>pt: points (1pt = 1/72 of 1 in)</li>
+            <li>pc: picas (1 pc = 12 pt)</li>
+            <ul>
+                <li>percentage - % to parent</li>
+                <li>em - equl to current font size</li>
+                <li>rem  - root elemnt measurement</li>
+            </ul>
+        </ul>
+
+        <div class="imgcontainer">
+            <img src="https://www.dropbox.com/scl/fi/dtugzjjt75yz9tln1d6a4/jack-
+            castles-zeCcm2ZHCjg-unsplash.jpg?rlkey=8pcceg9nux3g375zgssgw9027&raw=1" 
+            alt="unsplashImg" width="300px" height="300px"
+        alt="chrome logo"
+        class="responsive-image">
+        </div>
+        
+        <style>
+            .imgcontainer{
+                width: 80%; /* this takes 80% of body width ie parent */
+            }
+            .responsive-image{
+                width: 100%; /* reltive to parent container ie imgcontainer */
+            } 
+        </style>
+    
+
+</body>
+
+</html>

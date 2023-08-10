@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Oswald:wght@300&family=Roboto:ital,wght@1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vh;
+    height: 100vh;
+    display: grid;
+
+    grid-template-areas: 
+    'nav nav nav'
+    'header header header'
+    'sidebar main main'
+    'side1 side2 side3'
+    'footer footer footer';
+
+    grid-template-rows: 50px 150px 1fr 200px 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+} 
+#header, #nav, #sidebar, #main, #side1, #side2, #side3, #footer{
+    background-color: orangered;
+    color: antiquewhite;
+    padding: 20px;
+    border: 1px solid wheat;
+}
+
+#nav {
+    grid-area: nav;
+}
+
+#header{
+    grid-area: header;
+   
+}
+#sidebar{
+    grid-area: sidebar;
+}
+
+#main{
+    grid-area: main;
+}
+side1{
+    grid-area: side1;
+}
+side2{
+    grid-area: side1;
+}
+side2{
+    grid-area: side1;
+}
+#footer{
+    grid-area: footer;
+}

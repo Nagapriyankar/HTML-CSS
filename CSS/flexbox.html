@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX</title>
+</head>
+<body>
+    <h1>FLEX BOX</h1>
+
+    <div class = "flex-container">
+        <div style="order: 1">FLEX 1</div>
+        <div>FLEX 2</div>
+        <div style="flex-basis: 200px;">FLEX 3</div>
+        <div style="flex-grow: 5;">FLEX 4</div>
+        <div style="flex-shrink: 1;">FLEX 5</div>
+        <div>FLEX 6</div>
+        <div style="align-self: flex-start;">FLEX 7</div>
+        <div>FLEX 8</div>
+        <div style="flex-grow: 10;">FLEX 9</div>
+    </div>
+
+
+    <style> 
+    .flex-container{
+        display : flex;
+        height: 600px;
+        flex-wrap: wrap;
+        background-color : aqua;
+        flex-direction: row;
+        justify-content :flex-start;
+        align-items: center;
+        align-content:center ;
+        
+    }
+
+    .flex-container > div {
+        background-color: yellowgreen;
+        margin: 10px;
+        padding : 20px;
+        font-size: 20px; 
+        color: brown;
+    }
+    </style>
+</body>
+</html>
+
+
+<!-- CONTAINER PROPERTIES
+flex-direction
+flex-wrap
+flex-flow
+justify-content
+align-items
+align-content -->
+
+<!-- ITEM PROPERTIES
+order
+flex-grow
+flex-shrink
+flex-basis
+flex
+align-self -->

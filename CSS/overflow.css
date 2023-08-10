@@ -1,0 +1,15 @@
+.container {
+    background-color: aqua;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    
+}
+
+.overflow-set{
+    overflow: scroll;
+    overflow: hidden;
+    overflow: auto;
+}

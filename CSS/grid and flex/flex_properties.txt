@@ -1,0 +1,70 @@
+container properties:
+
+display
+        1)flex
+        2)inline flex
+flex-direction
+        1)row
+        2)row reverse
+        3)column (specify height)
+        4)column reverse
+flex-wrap
+        1)nowrap
+        2)wrap
+        3)wrap-reverse
+flex-flow-short hand for abv two
+        1)row nowrap
+        2)row wrap
+        3)row wrap-reverse
+        4)column wrap
+        5)column wrap-reverse
+column-gap
+        1)column-gap
+row-gap
+        1)row-gap
+gap
+        1)40px 20px (row col)
+justify-content - main axis allignment (x-row y-col)
+        1)flex-start
+        2)flex-end
+        3)ccenter
+        4)space around
+        5)space evenly
+        6)space between
+align-items cross axis allignment (x-col y-row)
+        1)flex-start
+        2)flex-end
+        3)ccenter
+        4)baseline
+align-content
+        1)flex-start
+        2)flex-end
+        3)ccenter
+        4)space around
+        5)space evenly
+        6)space between
+        
+
+flex item properties
+
+order
+        default order is 0. change as per requirement
+flex-grow
+        flexibly stretch/ grow as per requirement.default is 0
+flex-shrink
+        default 1
+        item shrink n times
+flex-basis
+        1)auto by default
+        2)giv specification in px or percentage
+        3)grow item will grow from current size
+flex
+        shorthand property
+        flex : grow shrink basis;
+align-self  
+        auto(takes parent container config)
+        works in cross axis
+        1)flex-start
+        2)flex-end
+        3)ccenter
+        

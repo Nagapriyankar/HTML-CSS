@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Roboto:ital,wght@1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    border: 5px solid black;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.item {
+    font-size: 18px;
+    padding: 13px;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+
+.item-1{background-color: rgb(153, 14, 153);}
+.item-2{background-color: rgb(66, 60, 132);}
+.item-3{background-color: rgb(0, 153, 255);}
+.item-4{background-color: rgb(43, 255, 0);}
+.item-5{background-color: rgb(217, 255, 0);}
+.item-6{background-color: rgb(255, 119, 0);}
+.item-7{background-color: rgb(255, 0, 0);}
+.item-8{background-color: rgb(255, 0, 123);}
+.item-9{background-color: rgb(77, 71, 76);}
+
+/* --------------grid-template-columns-------------- */
+
+/* .container{
+    display: inline-grid; takes only content width 
+    display: grid;  takes container width
+    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 100px 1fr 1fr;
+    grid-template-columns: 200px 2fr auto;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: repeat(3, 200px) 100PX;
+    grid-template-columns: repeat(3, minmax(50px, 1fr));  
+}
+*/
+
+/* --------------grid-template-rows-------------- */
+/* .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);;
+
+    grid-template-rows: 200px 200px 100px;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+
+    grid-template: repeat(3, 100px) / repeat(4, 1fr);
+
+    row-gap: 20px;
+    column-gap: 10px;
+    gap: 5px 10px;
+    gap: 20px;
+
+} */
+
+/* --------------justfy item, align item, placeitem-------------- */
+ 
+/* .container{
+    display: grid;
+    grid-template: repeat(3, 100px) / repeat(3, 1fr);
+
+     justify-items: stretch;
+    justify-items: start;
+    justify-items: end;
+    justify-items: center;
+    
+    align-items: stretch;
+    align-items: start;
+    align-items: end;
+    align-items: center; 
+
+    place-items: center end;
+    place-items: start;
+
+}  */
+
+/* --------------justfy content, align, place-------------- */
+
+/* .container {
+    display: grid;
+    height: 600px;
+    grid-template: repeat(3, 100px) / repeat(3, 100px);
+
+    justify-content: start;
+    justify-content: center;
+    justify-content: end;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+    align-content: start;
+    align-content: center;
+    align-content: end;
+    align-content: space-between;
+    align-content: space-around;
+    align-content: space-evenly;
+
+    
+    place-content: start end;
+    place-content:  end end;
+    place-content:  end start;
+    place-content:  center 
+} */
+
+/* ---grid auto flow--- */
+
+/* .container{
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-rows: 100px;
+
+    grid-auto-flow: column;
+    grid-auto-columns: 50pxpx;
+} */
+
+
+/* ----------item properties---------------- */
+/* ----------grid column, grid row---------------- */
+/*  .container {
+    display: grid;
+    height: 600px;
+    grid-template: repeat(3, 100px) / repeat(3, 100px);
+ }
+
+.item-1{
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+    grid-column-start: ;
+}
+
+.item-3{
+    grid-row: 1 / span 2;
+}
+
+.item-7{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.item-4{
+    grid-column: 2 / span 3;
+}
+ */
+
+
+/* ----------justify, align, place self---------------- */
+
+.container {
+    display: grid;
+    height: 600px;
+    grid-template: repeat(3, 100px) / repeat(3, 100px);
+}
+
+.item-5{
+    grid-column: 1 / span 3;
+    grid-row: 3 /span 2;
+}
+
+.item-6{
+    justify-self: start ;
+    justify-self: end ;
+    justify-self: center ;
+
+    align-self: start;
+    align-self: end;
+    align-self: center;
+}
+
+.item-3{
+    place-self: center end;
+}

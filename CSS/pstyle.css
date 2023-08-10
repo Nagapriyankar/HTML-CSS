@@ -1,0 +1,82 @@
+
+.yellowbox{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+}
+
+.bluebox{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: relative;
+   /*  move to center of yellow
+    bottom: 150px;
+    left: 50px; */
+}
+
+
+.redbox{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+.pinkbox{
+    background-color: rgb(210, 92, 112);
+    height: 100px;
+    width: 100px;
+    position: absolute;    
+    /* this will behave like pink box donot exist if used alone 
+    move the div inside redbox div*/
+    /*top: 10px;
+     this offset will move pinkbox to 10px from top ie from non static div, body in this case
+    to avoid that make red box to non static  div
+     */
+    top: 50px;
+    left: 50px;
+}
+
+.orangebox{
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+.greenbox{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    position: fixed;    
+    /* similar to absolute but donot search non staticc container instead start from body 
+    position is fixed even if we scroll the page*/
+    top: 200px;
+    left: 400px;
+}
+
+
+.blackbox{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    position: sticky;
+    top: 20px;
+    left: 50px
+    
+}
+/* sticky will behave normal untill ofset condition is met
+    in this case ofset is 20px fromm top
+    black box sticks when condition met  */
+
+.whitebox{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    
+    
+    
+}
+
